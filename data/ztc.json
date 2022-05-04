@@ -1,0 +1,191 @@
+{
+  "openapi": "3.0.0",
+  "collection": "https://raw.githubusercontent.com/VNG-Realisatie/gemma-zaken/master/api-specificatie/ztc/1.1.x/openapi.yaml",
+  "schemas": {
+    "BesluitType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "catalogus": "http://example.com",
+          "zaaktypes": [
+            "http://example.com"
+          ],
+          "omschrijving": "string",
+          "omschrijvingGeneriek": "string",
+          "besluitcategorie": "string",
+          "reactietermijn": "string",
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "publicatietermijn": "string",
+          "toelichting": "string",
+          "informatieobjecttypen": [
+          "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "concept": true
+        }
+      }
+    ],
+    "Catalogus":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "domein": "strin",
+          "rsin": "string",
+          "contactpersoonBeheerNaam": "string",
+          "contactpersoonBeheerTelefoonnummer": "string",
+          "contactpersoonBeheerEmailadres": "user@example.com",
+          "zaaktypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ]
+        }
+      }
+    ],
+    "Eigenschap":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "naam": "string",
+          "definitie": "string",
+          "specificatie": {
+            "groep": "string",
+            "formaat": "tekst",
+            "lengte": "string",
+            "kardinaliteit": "str",
+            "waardenverzameling": []
+          },
+          "toelichting": "string",
+          "zaaktype": "http://example.com"
+        }
+      }
+    ],
+    "ResultaatType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "zaaktype": "http://example.com",
+          "omschrijving": "string",
+          "resultaattypeomschrijving": "http://example.com",
+          "omschrijvingGeneriek": "string",
+          "selectielijstklasse": "http://example.com",
+          "toelichting": "string",
+          "archiefnominatie": "blijvend_bewaren",
+          "archiefactietermijn": "string",
+          "brondatumArchiefprocedure": {
+            "afleidingswijze": "afgehandeld",
+            "datumkenmerk": "string",
+            "einddatumBekend": true,
+            "objecttype": "adres",
+            "registratie": "string",
+            "procestermijn": "string"
+          }
+        }
+      }
+    ],
+    "RolType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "zaaktype": "http://example.com",
+          "omschrijving": "string",
+          "omschrijvingGeneriek": "adviseur"
+        }
+      }
+    ],
+    "StatusType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "omschrijving": "string",
+          "omschrijvingGeneriek": "string",
+          "statustekst": "string",
+          "zaaktype": "http://example.com",
+          "volgnummer": 1,
+          "isEindstatus": true,
+          "informeren": true
+        }
+      }
+    ],
+    "ZaakType-InformatieObjectType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "zaaktype": "http://example.com",
+          "informatieobjecttype": "http://example.com",
+          "volgnummer": 1,
+          "richting": "inkomend",
+          "statustype": "http://example.com"
+        }
+      }
+    ],
+    "ZaakType":[
+      {
+        "properties": {
+          "url": "http://example.com",
+          "identificatie": 99999,
+          "omschrijving": "string",
+          "omschrijvingGeneriek": "string",
+          "vertrouwelijkheidaanduiding": "openbaar",
+          "doel": "string",
+          "aanleiding": "string",
+          "toelichting": "string",
+          "indicatieInternOfExtern": "intern",
+          "handelingInitiator": "string",
+          "onderwerp": "string",
+          "handelingBehandelaar": "string",
+          "doorlooptijd": "string",
+          "servicenorm": "string",
+          "opschortingEnAanhoudingMogelijk": true,
+          "verlengingMogelijk": true,
+          "verlengingstermijn": "string",
+          "trefwoorden": [
+            "string"
+          ],
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "verantwoordingsrelatie": [
+            "string"
+          ],
+          "productenOfDiensten": [
+            "http://example.com"
+          ],
+          "selectielijstProcestype": "http://example.com",
+          "referentieproces": {
+            "naam": "string",
+            "link": "http://example.com"
+          },
+          "catalogus": "http://example.com",
+          "statustypen": [
+            "http://example.com"
+          ],
+          "resultaattypen": [
+            "http://example.com"
+          ],
+          "eigenschappen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ],
+          "roltypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "versiedatum": "2019-08-24",
+          "concept": true
+        }
+      }
+    ]
+  }
+}
