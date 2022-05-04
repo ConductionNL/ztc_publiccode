@@ -5,10 +5,11 @@
     "BesluitType":[
       {
         "properties": {
+          "id": "6d922ba8-be5e-47cb-adb1-0215335ec918",
           "url": "http://example.com",
           "catalogus": "http://example.com",
           "zaaktypes": [
-            "http://example.com"
+            "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899"
           ],
           "omschrijving": "string",
           "omschrijvingGeneriek": "string",
@@ -37,10 +38,10 @@
           "contactpersoonBeheerTelefoonnummer": "string",
           "contactpersoonBeheerEmailadres": "user@example.com",
           "zaaktypen": [
-            "http://example.com"
+            "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899"
           ],
           "besluittypen": [
-            "http://example.com"
+            "http://localhost/api/besluittypen/6d922ba8-be5e-47cb-adb1-0215335ec918"
           ],
           "informatieobjecttypen": [
             "http://example.com"
