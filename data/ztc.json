@@ -69,8 +69,9 @@
     "ResultaatType":[
       {
         "properties": {
+          "id": "93b10208-daa5-4db0-a83d-fd91e8af5dd0",
           "url": "http://example.com",
-          "zaaktype": "http://example.com",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "omschrijving": "string",
           "resultaattypeomschrijving": "http://example.com",
           "omschrijvingGeneriek": "string",
@@ -92,8 +93,9 @@
     "RolType":[
       {
         "properties": {
+          "id": "1c8fff49-fc68-43d1-b253-25a29a63a67f",
           "url": "http://example.com",
-          "zaaktype": "http://example.com",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "omschrijving": "string",
           "omschrijvingGeneriek": "adviseur"
         }
@@ -102,11 +104,12 @@
     "StatusType":[
       {
         "properties": {
+          "id": "172400cf-82eb-48d7-a300-ab2c0167152f",
           "url": "http://example.com",
           "omschrijving": "string",
           "omschrijvingGeneriek": "string",
           "statustekst": "string",
-          "zaaktype": "http://example.com",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "volgnummer": 1,
           "isEindstatus": true,
           "informeren": true
@@ -117,7 +120,7 @@
       {
         "properties": {
           "url": "http://example.com",
-          "zaaktype": "http://example.com",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "informatieobjecttype": "http://example.com",
           "volgnummer": 1,
           "richting": "inkomend",
@@ -128,6 +131,7 @@
     "ZaakType":[
       {
         "properties": {
+          "id": "9516c1cc-6575-486f-a344-7bfbf1847899",
           "url": "http://example.com",
           "identificatie": 99999,
           "omschrijving": "string",
