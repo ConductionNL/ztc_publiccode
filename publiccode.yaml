@@ -20,7 +20,9 @@ description:
     shortDescription: "Een API om een Catalogi API (ZTC) te benaderen."
     documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/gemma-zaken/master/api-specificatie/ztc/1.1.x/openapi.yaml'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/gemma-zaken/master/api-specificatie/ztc/1.1.x/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/ztc_publiccode/main/data/ztc.json'
   en:
     shortDescription: "An API to perform requests on a case type register (ZTC)"
     documentation: 'https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/gemma-zaken/master/api-specificatie/ztc/1.1.x/openapi.yaml'
     apiDocumentation: 'https://raw.githubusercontent.com/VNG-Realisatie/gemma-zaken/master/api-specificatie/ztc/1.1.x/openapi.yaml'
+    testDataLocation: 'https://raw.githubusercontent.com/ConductionNL/ztc_publiccode/main/data/ztc.json'
