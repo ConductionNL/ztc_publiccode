@@ -105,11 +105,37 @@
     "StatusType":[
       {
         "properties": {
+          "id": "c59e346f-e46b-464d-a9a7-9b92a47e665b",
+          "url": "http://example.com",
+          "omschrijving": "in behandeling",
+          "omschrijvingGeneriek": "string",
+          "statustekst": "in behandeling",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
+          "volgnummer": 1,
+          "isEindstatus": true,
+          "informeren": true
+        }
+      },
+      {
+        "properties": {
           "id": "172400cf-82eb-48d7-a300-ab2c0167152f",
           "url": "http://example.com",
-          "omschrijving": "string",
+          "omschrijving": "gesloten",
           "omschrijvingGeneriek": "string",
-          "statustekst": "string",
+          "statustekst": "gesloten",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
+          "volgnummer": 1,
+          "isEindstatus": true,
+          "informeren": true
+        }
+      },
+      {
+        "properties": {
+          "id": "bc323217-e0ac-400e-8dc2-f8bdd3e5dd0d",
+          "url": "http://example.com",
+          "omschrijving": "in afwachting",
+          "omschrijvingGeneriek": "string",
+          "statustekst": "in afwachting",
           "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "volgnummer": 1,
           "isEindstatus": true,
@@ -137,6 +163,198 @@
           "identificatie": 99999,
           "omschrijving": "Wijzigen speelplaatsvergunning",
           "omschrijvingGeneriek": "Wijzigen speelplaatsvergunning",
+          "vertrouwelijkheidaanduiding": "openbaar",
+          "doel": "Het nemen van een besluit naar aanleiding van een wijzigingsverzoek voor een bestaande speelplaatsvergunning.",
+          "aanleiding": "Een niet-natuurlijk persoon (bijv. stichting) wenst een private speelplaats te vernieuwen of uit te bereiden met andere speeltoestellen. Hiervoor is een wijziging van de bestaande vergunning nodig.",
+          "toelichting": "Het behandelen van de aanvraag op basis van de regels en procedures van de Algemene Plaatselijke Speelplaatsverordening (APS).",
+          "indicatieInternOfExtern": "extern",
+          "handelingInitiator": "Wijzigen",
+          "onderwerp": "Vergunning",
+          "handelingBehandelaar": "Behandelen",
+          "doorlooptijd": "56 dagen",
+          "servicenorm": "3 dagen",
+          "opschortingEnAanhoudingMogelijk": true,
+          "verlengingMogelijk": true,
+          "verlengingstermijn": "28 dagen",
+          "trefwoorden": [
+            "speelplaatsvergunning",
+            "speelplaats",
+            "speeltoestel",
+            "verzoek"
+          ],
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "verantwoordingsrelatie": [
+            "string"
+          ],
+          "productenOfDiensten": [
+            "http://example.com"
+          ],
+          "selectielijstProcestype": "http://example.com",
+          "referentieproces": {
+            "naam": "string",
+            "link": "http://example.com"
+          },
+          "catalogus": "http://example.com",
+          "statustypen": [
+            "http://example.com"
+          ],
+          "resultaattypen": [
+            "http://example.com"
+          ],
+          "eigenschappen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ],
+          "roltypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "versiedatum": "2019-08-24",
+          "concept": true
+        }
+      },
+      {
+        "properties": {
+          "id": "d722ab0d-6f07-411b-93f2-263c1f1abed0",
+          "url": "http://localhost/api/zaaktypen/d722ab0d-6f07-411b-93f2-263c1f1abed0",
+          "identificatie": 99999,
+          "omschrijving": "Aanvraag Bbz voor startende ondernemer",
+          "omschrijvingGeneriek": "Aanvraag Bbz voor startende ondernemer",
+          "vertrouwelijkheidaanduiding": "openbaar",
+          "doel": "Het nemen van een besluit naar aanleiding van een wijzigingsverzoek voor een bestaande speelplaatsvergunning.",
+          "aanleiding": "Een niet-natuurlijk persoon (bijv. stichting) wenst een private speelplaats te vernieuwen of uit te bereiden met andere speeltoestellen. Hiervoor is een wijziging van de bestaande vergunning nodig.",
+          "toelichting": "Het behandelen van de aanvraag op basis van de regels en procedures van de Algemene Plaatselijke Speelplaatsverordening (APS).",
+          "indicatieInternOfExtern": "extern",
+          "handelingInitiator": "Wijzigen",
+          "onderwerp": "Vergunning",
+          "handelingBehandelaar": "Behandelen",
+          "doorlooptijd": "56 dagen",
+          "servicenorm": "3 dagen",
+          "opschortingEnAanhoudingMogelijk": true,
+          "verlengingMogelijk": true,
+          "verlengingstermijn": "28 dagen",
+          "trefwoorden": [
+            "speelplaatsvergunning",
+            "speelplaats",
+            "speeltoestel",
+            "verzoek"
+          ],
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "verantwoordingsrelatie": [
+            "string"
+          ],
+          "productenOfDiensten": [
+            "http://example.com"
+          ],
+          "selectielijstProcestype": "http://example.com",
+          "referentieproces": {
+            "naam": "string",
+            "link": "http://example.com"
+          },
+          "catalogus": "http://example.com",
+          "statustypen": [
+            "http://example.com"
+          ],
+          "resultaattypen": [
+            "http://example.com"
+          ],
+          "eigenschappen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ],
+          "roltypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "versiedatum": "2019-08-24",
+          "concept": true
+        }
+      },
+      {
+        "properties": {
+          "id": "78ffca25-fda5-4bb3-8df8-a48afdf4c18a",
+          "url": "http://localhost/api/zaaktypen/78ffca25-fda5-4bb3-8df8-a48afdf4c18a",
+          "identificatie": 99999,
+          "omschrijving": "Aanvraag IOAZ voor onderneming die wil stoppen met bedrijf",
+          "omschrijvingGeneriek": "Aanvraag IOAZ voor onderneming die wil stoppen met bedrijf",
+          "vertrouwelijkheidaanduiding": "openbaar",
+          "doel": "Het nemen van een besluit naar aanleiding van een wijzigingsverzoek voor een bestaande speelplaatsvergunning.",
+          "aanleiding": "Een niet-natuurlijk persoon (bijv. stichting) wenst een private speelplaats te vernieuwen of uit te bereiden met andere speeltoestellen. Hiervoor is een wijziging van de bestaande vergunning nodig.",
+          "toelichting": "Het behandelen van de aanvraag op basis van de regels en procedures van de Algemene Plaatselijke Speelplaatsverordening (APS).",
+          "indicatieInternOfExtern": "extern",
+          "handelingInitiator": "Wijzigen",
+          "onderwerp": "Vergunning",
+          "handelingBehandelaar": "Behandelen",
+          "doorlooptijd": "56 dagen",
+          "servicenorm": "3 dagen",
+          "opschortingEnAanhoudingMogelijk": true,
+          "verlengingMogelijk": true,
+          "verlengingstermijn": "28 dagen",
+          "trefwoorden": [
+            "speelplaatsvergunning",
+            "speelplaats",
+            "speeltoestel",
+            "verzoek"
+          ],
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "verantwoordingsrelatie": [
+            "string"
+          ],
+          "productenOfDiensten": [
+            "http://example.com"
+          ],
+          "selectielijstProcestype": "http://example.com",
+          "referentieproces": {
+            "naam": "string",
+            "link": "http://example.com"
+          },
+          "catalogus": "http://example.com",
+          "statustypen": [
+            "http://example.com"
+          ],
+          "resultaattypen": [
+            "http://example.com"
+          ],
+          "eigenschappen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ],
+          "roltypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "versiedatum": "2019-08-24",
+          "concept": true
+        }
+      },
+      {
+        "properties": {
+          "id": "48338157-325e-4dfc-bc82-5c757373ee8c",
+          "url": "http://localhost/api/zaaktypen/48338157-325e-4dfc-bc82-5c757373ee8c",
+          "identificatie": 99999,
+          "omschrijving": "Aanvraag omgevingsvergunning voor bouwen Bibob-plichtig",
+          "omschrijvingGeneriek": "Aanvraag omgevingsvergunning voor bouwen Bibob-plichtig",
           "vertrouwelijkheidaanduiding": "openbaar",
           "doel": "Het nemen van een besluit naar aanleiding van een wijzigingsverzoek voor een bestaande speelplaatsvergunning.",
           "aanleiding": "Een niet-natuurlijk persoon (bijv. stichting) wenst een private speelplaats te vernieuwen of uit te bereiden met andere speeltoestellen. Hiervoor is een wijziging van de bestaande vergunning nodig.",
