@@ -95,12 +95,12 @@
       {
         "properties": {
           "id": "1c8fff49-fc68-43d1-b253-25a29a63a67f",
-          "url": "http://example.com",
+          "url": "https://localhost/api/roltypen/1c8fff49-fc68-43d1-b253-25a29a63a67f",
           "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
-          "omschrijving": "string",
-          "omschrijvingGeneriek": "adviseur"
+          "omschrijving": "indiener",
+          "omschrijvingGeneriek": "indiener"
         }
-      }
+      } 
     ],
     "StatusType":[
       {
