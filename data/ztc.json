@@ -158,6 +158,69 @@
     "ZaakType":[
       {
         "properties": {
+          "id": "4bba27cd-be4d-4bd0-bd4e-2f7687e4eab1",
+          "url": "http://localhost/api/zaaktypen/4bba27cd-be4d-4bd0-bd4e-2f7687e4eab1",
+          "identificatie": 99999,
+          "omschrijving": "Melding openbare ruimte",
+          "omschrijvingGeneriek": "Melding openbare ruimte",
+          "vertrouwelijkheidaanduiding": "openbaar",
+          "doel": "Ziet u iets op straat, een park, een sportveld, water of plein dat niet in orde is? Dan kunt u een melding openbare ruimte doen bij de gemeente.",
+          "aanleiding": "Ziet u iets op straat, een park, een sportveld, water of plein dat niet in orde is? Dan kunt u een melding openbare ruimte doen bij de gemeente.",
+          "toelichting": "Ziet u iets op straat, een park, een sportveld, water of plein dat niet in orde is? Dan kunt u een melding openbare ruimte doen bij de gemeente.",
+          "indicatieInternOfExtern": "extern",
+          "handelingInitiator": "Wijzigen",
+          "onderwerp": "Melding",
+          "handelingBehandelaar": "Behandelen",
+          "doorlooptijd": "56 dagen",
+          "servicenorm": "3 dagen",
+          "opschortingEnAanhoudingMogelijk": true,
+          "verlengingMogelijk": true,
+          "verlengingstermijn": "28 dagen",
+          "trefwoorden": [
+            "melding",
+            "openbare",
+            "ruimte"
+          ],
+          "publicatieIndicatie": true,
+          "publicatietekst": "string",
+          "verantwoordingsrelatie": [
+            "string"
+          ],
+          "productenOfDiensten": [
+            "http://example.com"
+          ],
+          "selectielijstProcestype": "http://example.com",
+          "referentieproces": {
+            "naam": "string",
+            "link": "http://example.com"
+          },
+          "catalogus": "http://example.com",
+          "statustypen": [
+            "http://example.com"
+          ],
+          "resultaattypen": [
+            "http://example.com"
+          ],
+          "eigenschappen": [
+            "http://example.com"
+          ],
+          "informatieobjecttypen": [
+            "http://example.com"
+          ],
+          "roltypen": [
+            "http://example.com"
+          ],
+          "besluittypen": [
+            "http://example.com"
+          ],
+          "beginGeldigheid": "2019-08-24",
+          "eindeGeldigheid": "2019-08-24",
+          "versiedatum": "2019-08-24",
+          "concept": true
+        }
+      },
+      {
+        "properties": {
           "id": "9516c1cc-6575-486f-a344-7bfbf1847899",
           "url": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
           "identificatie": 99999,
@@ -241,10 +304,10 @@
           "verlengingMogelijk": true,
           "verlengingstermijn": "28 dagen",
           "trefwoorden": [
-            "speelplaatsvergunning",
-            "speelplaats",
-            "speeltoestel",
-            "verzoek"
+            "aanvraag",
+            "Bbz",
+            "startende",
+            "ondernemer"
           ],
           "publicatieIndicatie": true,
           "publicatietekst": "string",
@@ -305,10 +368,11 @@
           "verlengingMogelijk": true,
           "verlengingstermijn": "28 dagen",
           "trefwoorden": [
-            "speelplaatsvergunning",
-            "speelplaats",
-            "speeltoestel",
-            "verzoek"
+            "aanvraag",
+            "IOAZ",
+            "onderneming",
+            "stoppen",
+            "bedrijf"
           ],
           "publicatieIndicatie": true,
           "publicatietekst": "string",
@@ -369,10 +433,9 @@
           "verlengingMogelijk": true,
           "verlengingstermijn": "28 dagen",
           "trefwoorden": [
-            "speelplaatsvergunning",
-            "speelplaats",
-            "speeltoestel",
-            "verzoek"
+            "aanvraag",
+            "omgevingsvergunning",
+            "bouwen"
           ],
           "publicatieIndicatie": true,
           "publicatietekst": "string",
