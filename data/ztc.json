@@ -100,6 +100,15 @@
           "omschrijving": "indiener",
           "omschrijvingGeneriek": "indiener"
         }
+      },
+      {
+        "properties": {
+          "id": "1c8fff49-fc68-43d1-b253-25a29a63a67f",
+          "url": "https://localhost/api/roltypen/72e028fd-5de7-4912-af0f-672e0bdeabd6",
+          "zaaktype": "http://localhost/api/zaaktypen/9516c1cc-6575-486f-a344-7bfbf1847899",
+          "omschrijving": "behandelaar",
+          "omschrijvingGeneriek": "behandelaar"
+        }
       } 
     ],
     "StatusType":[
